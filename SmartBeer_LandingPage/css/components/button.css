@@ -1,0 +1,17 @@
+
+.btn-experience {
+
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: #6AD58B;
+  opacity: 0.5;
+  
+}
+
+.btn-experience:hover {
+  opacity: 1;
+  background: #6AD58B;
+  text-decoration: none;
+  color: gray;
+}

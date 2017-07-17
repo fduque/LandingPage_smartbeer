@@ -1,0 +1,40 @@
+.flex-container {
+  padding: 40px;
+  margin: 0;
+  list-style: none;  
+ 
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+   -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  background: black;
+  padding: 5px;
+  width: 200px;
+  height: 120px;
+  margin-top: 60px;
+  text-align: center;
+  opacity: 0.4;
+}
+
+.hottext {
+  margin-top: 5px;
+  color: white;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 2;
+}
+
+.hotsource{
+  margin-top: 15px;
+  color: gray;
+  font-weight: lighter;
+  font-size: 1;
+}
